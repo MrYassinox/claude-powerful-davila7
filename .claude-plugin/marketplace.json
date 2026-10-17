@@ -1,0 +1,521 @@
+{
+  "name": "claude-powerful-davila7",
+  "owner": {
+    "name": "Claude Code Templates Team",
+    "url": "https://github.com/davila7/claude-code-templates"
+  },
+  "metadata": {
+    "description": "Claude Code Templates: agents, skills, commands, hooks, MCPs and scheduled loops",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-skills-ai-maestro",
+      "description": "6 agent skills from the ai-maestro category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/ai-maestro"
+      ]
+    },
+    {
+      "name": "claude-skills-ai-research",
+      "description": "131 agent skills from the ai-research category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/ai-research"
+      ]
+    },
+    {
+      "name": "claude-skills-business-marketing",
+      "description": "50 agent skills from the business-marketing category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/business-marketing"
+      ]
+    },
+    {
+      "name": "claude-skills-career",
+      "description": "21 agent skills from the career category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/career"
+      ]
+    },
+    {
+      "name": "claude-skills-creative-design",
+      "description": "43 agent skills from the creative-design category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/creative-design"
+      ]
+    },
+    {
+      "name": "claude-skills-curviate",
+      "description": "9 agent skills from the curviate category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/curviate"
+      ]
+    },
+    {
+      "name": "claude-skills-database",
+      "description": "13 agent skills from the database category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/database"
+      ]
+    },
+    {
+      "name": "claude-skills-development",
+      "description": "230 agent skills from the development category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/development"
+      ]
+    },
+    {
+      "name": "claude-skills-document-processing",
+      "description": "18 agent skills from the document-processing category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/document-processing"
+      ]
+    },
+    {
+      "name": "claude-skills-doordash",
+      "description": "5 agent skills from the doordash category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/doordash"
+      ]
+    },
+    {
+      "name": "claude-skills-enterprise-communication",
+      "description": "33 agent skills from the enterprise-communication category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/enterprise-communication"
+      ]
+    },
+    {
+      "name": "claude-skills-git",
+      "description": "3 agent skills from the git category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/git"
+      ]
+    },
+    {
+      "name": "claude-skills-media",
+      "description": "5 agent skills from the media category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/media"
+      ]
+    },
+    {
+      "name": "claude-skills-operations",
+      "description": "6 agent skills from the operations category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/operations"
+      ]
+    },
+    {
+      "name": "claude-skills-pocketbase",
+      "description": "6 agent skills from the pocketbase category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/pocketbase"
+      ]
+    },
+    {
+      "name": "claude-skills-productivity",
+      "description": "50 agent skills from the productivity category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/productivity"
+      ]
+    },
+    {
+      "name": "claude-skills-railway",
+      "description": "12 agent skills from the railway category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/railway"
+      ]
+    },
+    {
+      "name": "claude-skills-scientific",
+      "description": "139 agent skills from the scientific category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/scientific"
+      ]
+    },
+    {
+      "name": "claude-skills-security",
+      "description": "47 agent skills from the security category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/security"
+      ]
+    },
+    {
+      "name": "claude-skills-sentry",
+      "description": "6 agent skills from the sentry category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/sentry"
+      ]
+    },
+    {
+      "name": "claude-skills-utilities",
+      "description": "12 agent skills from the utilities category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/utilities"
+      ]
+    },
+    {
+      "name": "claude-skills-video",
+      "description": "4 agent skills from the video category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/video"
+      ]
+    },
+    {
+      "name": "claude-skills-web-data",
+      "description": "7 agent skills from the web-data category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/web-data"
+      ]
+    },
+    {
+      "name": "claude-skills-web-development",
+      "description": "30 agent skills from the web-development category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/web-development"
+      ]
+    },
+    {
+      "name": "claude-skills-workflow-automation",
+      "description": "23 agent skills from the workflow-automation category of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/workflow-automation"
+      ]
+    },
+    {
+      "name": "claude-skills-extras",
+      "description": "6 agent skills across smaller categories (analytics, design-to-code, gmod-addon-maker, marketing, open-banking-io, sports) from the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/analytics",
+        "./cli-tool/components/skills/design-to-code",
+        "./cli-tool/components/skills/gmod-addon-maker",
+        "./cli-tool/components/skills/marketing",
+        "./cli-tool/components/skills/open-banking-io",
+        "./cli-tool/components/skills/sports"
+      ]
+    },
+    {
+      "name": "claude-agents-advisors",
+      "description": "52 specialized subagents from expert-advisors.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/expert-advisors"
+      ]
+    },
+    {
+      "name": "claude-agents-ai-specialists",
+      "description": "8 specialized subagents from ai-specialists.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/ai-specialists"
+      ]
+    },
+    {
+      "name": "claude-agents-api",
+      "description": "6 specialized subagents from api-graphql.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/api-graphql"
+      ]
+    },
+    {
+      "name": "claude-agents-blockchain",
+      "description": "4 specialized subagents from blockchain-web3.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/blockchain-web3"
+      ]
+    },
+    {
+      "name": "claude-agents-business",
+      "description": "21 specialized subagents from business-marketing.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/business-marketing"
+      ]
+    },
+    {
+      "name": "claude-agents-data-ai",
+      "description": "40 specialized subagents from data-ai.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/data-ai"
+      ]
+    },
+    {
+      "name": "claude-agents-database",
+      "description": "11 specialized subagents from database.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/database"
+      ]
+    },
+    {
+      "name": "claude-agents-dev-team",
+      "description": "17 specialized subagents from development-team.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/development-team"
+      ]
+    },
+    {
+      "name": "claude-agents-dev-tools",
+      "description": "38 specialized subagents from development-tools + modernization.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/development-tools",
+        "./cli-tool/components/agents/modernization"
+      ]
+    },
+    {
+      "name": "claude-agents-devops",
+      "description": "43 specialized subagents from devops-infrastructure + git.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/devops-infrastructure",
+        "./cli-tool/components/agents/git"
+      ]
+    },
+    {
+      "name": "claude-agents-docs",
+      "description": "11 specialized subagents from documentation.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/documentation"
+      ]
+    },
+    {
+      "name": "claude-agents-finance",
+      "description": "5 specialized subagents from finance.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/finance"
+      ]
+    },
+    {
+      "name": "claude-agents-game-dev",
+      "description": "5 specialized subagents from game-development.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/game-development"
+      ]
+    },
+    {
+      "name": "claude-agents-languages",
+      "description": "50 specialized subagents from programming-languages.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/programming-languages"
+      ]
+    },
+    {
+      "name": "claude-agents-mcp-dev",
+      "description": "8 specialized subagents from mcp-dev-team.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/mcp-dev-team"
+      ]
+    },
+    {
+      "name": "claude-agents-media",
+      "description": "26 specialized subagents from ffmpeg-clip-team + ocr-extraction-team + podcast-creator-team.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/ffmpeg-clip-team",
+        "./cli-tool/components/agents/ocr-extraction-team",
+        "./cli-tool/components/agents/podcast-creator-team"
+      ]
+    },
+    {
+      "name": "claude-agents-performance",
+      "description": "5 specialized subagents from performance-testing.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/performance-testing"
+      ]
+    },
+    {
+      "name": "claude-agents-productivity",
+      "description": "7 specialized subagents from obsidian-ops-team.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/obsidian-ops-team"
+      ]
+    },
+    {
+      "name": "claude-agents-research",
+      "description": "16 specialized subagents from deep-research-team.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/deep-research-team"
+      ]
+    },
+    {
+      "name": "claude-agents-security",
+      "description": "25 specialized subagents from security.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/security"
+      ]
+    },
+    {
+      "name": "claude-agents-ui",
+      "description": "6 specialized subagents from accessibility + ui-analysis.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/accessibility",
+        "./cli-tool/components/agents/ui-analysis"
+      ]
+    },
+    {
+      "name": "claude-agents-web-tools",
+      "description": "18 specialized subagents from realtime + web-tools.",
+      "source": "./",
+      "strict": false,
+      "agents": [
+        "./cli-tool/components/agents/realtime",
+        "./cli-tool/components/agents/web-tools"
+      ]
+    },
+    {
+      "name": "claude-loops",
+      "description": "18 scheduled agent-loop patterns (engineering, evaluation, operations) with the 32 agents, commands, hooks and skills they declare as components.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./cli-tool/components/skills/git"
+      ],
+      "agents": [
+        "./cli-tool/components/agents/development-team",
+        "./cli-tool/components/agents/documentation",
+        "./cli-tool/components/agents/expert-advisors",
+        "./cli-tool/components/agents/git",
+        "./cli-tool/components/agents/performance-testing",
+        "./cli-tool/components/agents/security"
+      ],
+      "commands": [
+        "./cli-tool/components/commands/documentation",
+        "./cli-tool/components/commands/git-workflow",
+        "./cli-tool/components/commands/performance",
+        "./cli-tool/components/commands/testing"
+      ],
+      "hooks": [
+        "./cli-tool/components/hooks/automation",
+        "./cli-tool/components/hooks/git",
+        "./cli-tool/components/hooks/quality-gates",
+        "./cli-tool/components/hooks/testing"
+      ]
+    },
+    {
+      "name": "claude-commands",
+      "description": "348 commands across 25 categories of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "commands": [
+        "./cli-tool/components/commands"
+      ]
+    },
+    {
+      "name": "claude-hooks",
+      "description": "90 hooks across 12 categories of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "hooks": [
+        "./cli-tool/components/hooks"
+      ]
+    },
+    {
+      "name": "claude-mcps",
+      "description": "107 mcps across 13 categories of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "mcps": [
+        "./cli-tool/components/mcps"
+      ]
+    },
+    {
+      "name": "claude-mods",
+      "description": "338 mods across 8 categories of the Claude Code Templates catalog.",
+      "source": "./",
+      "strict": false,
+      "mods": [
+        "./cli-tool/components/mods"
+      ]
+    }
+  ]
+}
